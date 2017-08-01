@@ -20,6 +20,7 @@
 		789964061F30B4E8001091F9 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789964031F30B4E8001091F9 /* Protocols.swift */; };
 		789964071F30B4E8001091F9 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789964041F30B4E8001091F9 /* String.swift */; };
 		789964081F30B4E8001091F9 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789964051F30B4E8001091F9 /* UIView.swift */; };
+		7899640A1F30B973001091F9 /* CustomFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789964091F30B973001091F9 /* CustomFlowLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		789964031F30B4E8001091F9 /* Protocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 		789964041F30B4E8001091F9 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		789964051F30B4E8001091F9 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		789964091F30B973001091F9 /* CustomFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomFlowLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				789963F81F30B48B001091F9 /* CollectionViewCell.swift */,
 				789963F91F30B48B001091F9 /* CollectionReusableView.swift */,
 				789963FA1F30B48B001091F9 /* CustomLayout.swift */,
+				789964091F30B973001091F9 /* CustomFlowLayout.swift */,
 				789963FF1F30B4AF001091F9 /* UICollectionView.swift */,
 				789964031F30B4E8001091F9 /* Protocols.swift */,
 				789964041F30B4E8001091F9 /* String.swift */,
@@ -170,6 +173,7 @@
 				789963FD1F30B48B001091F9 /* CollectionReusableView.swift in Sources */,
 				789964071F30B4E8001091F9 /* String.swift in Sources */,
 				789964081F30B4E8001091F9 /* UIView.swift in Sources */,
+				7899640A1F30B973001091F9 /* CustomFlowLayout.swift in Sources */,
 				789963E61F30B40B001091F9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
