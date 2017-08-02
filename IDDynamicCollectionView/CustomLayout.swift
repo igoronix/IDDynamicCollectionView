@@ -73,6 +73,7 @@ class CustomLayout: UICollectionViewLayout {
     
     func orientationDidChangeNotification() {
         DispatchQueue.main.async {
+            self.dynamicAnimator.removeAllBehaviors()
             self.collectionView?.reloadData()
             self.collectionView?.collectionViewLayout.invalidateLayout()
         }

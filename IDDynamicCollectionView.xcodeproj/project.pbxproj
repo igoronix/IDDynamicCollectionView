@@ -13,14 +13,17 @@
 		789963F01F30B40B001091F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 789963EE1F30B40B001091F9 /* LaunchScreen.storyboard */; };
 		789963FB1F30B48B001091F9 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789963F71F30B48B001091F9 /* CollectionViewController.swift */; };
 		789963FC1F30B48B001091F9 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789963F81F30B48B001091F9 /* CollectionViewCell.swift */; };
-		789963FD1F30B48B001091F9 /* CollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789963F91F30B48B001091F9 /* CollectionReusableView.swift */; };
+		789963FD1F30B48B001091F9 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789963F91F30B48B001091F9 /* HeaderView.swift */; };
 		789963FE1F30B48B001091F9 /* CustomLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789963FA1F30B48B001091F9 /* CustomLayout.swift */; };
 		789964001F30B4AF001091F9 /* UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789963FF1F30B4AF001091F9 /* UICollectionView.swift */; };
-		789964021F30B4BB001091F9 /* CollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 789964011F30B4BB001091F9 /* CollectionReusableView.xib */; };
+		789964021F30B4BB001091F9 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 789964011F30B4BB001091F9 /* HeaderView.xib */; };
 		789964061F30B4E8001091F9 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789964031F30B4E8001091F9 /* Protocols.swift */; };
 		789964071F30B4E8001091F9 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789964041F30B4E8001091F9 /* String.swift */; };
 		789964081F30B4E8001091F9 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789964051F30B4E8001091F9 /* UIView.swift */; };
 		7899640A1F30B973001091F9 /* CustomFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789964091F30B973001091F9 /* CustomFlowLayout.swift */; };
+		7899640C1F31C622001091F9 /* SectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7899640B1F31C622001091F9 /* SectionModel.swift */; };
+		7899640E1F31C64D001091F9 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7899640D1F31C64D001091F9 /* ItemModel.swift */; };
+		789964141F31C9DA001091F9 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 789964131F31C9DA001091F9 /* CollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,14 +35,17 @@
 		789963F11F30B40B001091F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		789963F71F30B48B001091F9 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		789963F81F30B48B001091F9 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
-		789963F91F30B48B001091F9 /* CollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionReusableView.swift; sourceTree = "<group>"; };
+		789963F91F30B48B001091F9 /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		789963FA1F30B48B001091F9 /* CustomLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLayout.swift; sourceTree = "<group>"; };
 		789963FF1F30B4AF001091F9 /* UICollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionView.swift; sourceTree = "<group>"; };
-		789964011F30B4BB001091F9 /* CollectionReusableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionReusableView.xib; sourceTree = "<group>"; };
+		789964011F30B4BB001091F9 /* HeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
 		789964031F30B4E8001091F9 /* Protocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 		789964041F30B4E8001091F9 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		789964051F30B4E8001091F9 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		789964091F30B973001091F9 /* CustomFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomFlowLayout.swift; sourceTree = "<group>"; };
+		7899640B1F31C622001091F9 /* SectionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionModel.swift; sourceTree = "<group>"; };
+		7899640D1F31C64D001091F9 /* ItemModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
+		789964131F31C9DA001091F9 /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,18 +81,21 @@
 				789963E51F30B40B001091F9 /* AppDelegate.swift */,
 				789963F71F30B48B001091F9 /* CollectionViewController.swift */,
 				789963F81F30B48B001091F9 /* CollectionViewCell.swift */,
-				789963F91F30B48B001091F9 /* CollectionReusableView.swift */,
+				789963F91F30B48B001091F9 /* HeaderView.swift */,
 				789963FA1F30B48B001091F9 /* CustomLayout.swift */,
 				789964091F30B973001091F9 /* CustomFlowLayout.swift */,
 				789963FF1F30B4AF001091F9 /* UICollectionView.swift */,
 				789964031F30B4E8001091F9 /* Protocols.swift */,
 				789964041F30B4E8001091F9 /* String.swift */,
 				789964051F30B4E8001091F9 /* UIView.swift */,
-				789964011F30B4BB001091F9 /* CollectionReusableView.xib */,
+				789964131F31C9DA001091F9 /* CollectionViewCell.xib */,
+				789964011F30B4BB001091F9 /* HeaderView.xib */,
 				789963E91F30B40B001091F9 /* Main.storyboard */,
 				789963EC1F30B40B001091F9 /* Assets.xcassets */,
 				789963EE1F30B40B001091F9 /* LaunchScreen.storyboard */,
 				789963F11F30B40B001091F9 /* Info.plist */,
+				7899640B1F31C622001091F9 /* SectionModel.swift */,
+				7899640D1F31C64D001091F9 /* ItemModel.swift */,
 			);
 			path = IDDynamicCollectionView;
 			sourceTree = "<group>";
@@ -152,9 +161,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				789963F01F30B40B001091F9 /* LaunchScreen.storyboard in Resources */,
-				789964021F30B4BB001091F9 /* CollectionReusableView.xib in Resources */,
+				789964021F30B4BB001091F9 /* HeaderView.xib in Resources */,
 				789963ED1F30B40B001091F9 /* Assets.xcassets in Resources */,
 				789963EB1F30B40B001091F9 /* Main.storyboard in Resources */,
+				789964141F31C9DA001091F9 /* CollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,9 +180,11 @@
 				789964061F30B4E8001091F9 /* Protocols.swift in Sources */,
 				789963FB1F30B48B001091F9 /* CollectionViewController.swift in Sources */,
 				789963FC1F30B48B001091F9 /* CollectionViewCell.swift in Sources */,
-				789963FD1F30B48B001091F9 /* CollectionReusableView.swift in Sources */,
+				789963FD1F30B48B001091F9 /* HeaderView.swift in Sources */,
+				7899640E1F31C64D001091F9 /* ItemModel.swift in Sources */,
 				789964071F30B4E8001091F9 /* String.swift in Sources */,
 				789964081F30B4E8001091F9 /* UIView.swift in Sources */,
+				7899640C1F31C622001091F9 /* SectionModel.swift in Sources */,
 				7899640A1F30B973001091F9 /* CustomFlowLayout.swift in Sources */,
 				789963E61F30B40B001091F9 /* AppDelegate.swift in Sources */,
 			);

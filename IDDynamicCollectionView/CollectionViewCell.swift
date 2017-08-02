@@ -8,7 +8,6 @@
 
 import UIKit
 
-
 class CollectionViewCell: UICollectionViewCell {
     @IBOutlet var headerLabel: UILabel!
     @IBOutlet var imageView: UIImageView!
