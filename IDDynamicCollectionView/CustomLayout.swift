@@ -13,13 +13,12 @@ protocol CustomLayoutDelegate: class {
     func collectionView(collectionView: UICollectionView, heightForSection section: Int) -> CGFloat
 }
 
-let kDamping: CGFloat = 0.7
+let kDamping: CGFloat = 1.0
 let kFrequence: CGFloat = 1.5
-let kResistence: CGFloat = 0.002
+let kResistence: CGFloat = 0.05
 
 class CustomLayout: UICollectionViewLayout {
     weak var delegate: CustomLayoutDelegate!
-    
     
     var itemsPadding: CGFloat = 1
     

@@ -9,11 +9,18 @@
 import UIKit
 
 protocol HeaderViewDelegate: class {
-    func didSelectHeader(_ headerView: UICollectionReusableView)
+    func didSelectHeader(_ headerView: TouchableHeader)
 }
 
-class HeaderView: UICollectionReusableView, NibLoadable {
-    @IBOutlet var headerLabel: UILabel!
+protocol TouchableHeader: class {
+    var tag: Int {get set}
+    var isHighlighted: Bool {get set}
+    var delegate:HeaderViewDelegate? {get set}
+}
+
+class HeaderView: UICollectionReusableView, NibLoadable, TouchableHeader, ConfigurableHeader {
+    @IBOutlet private var headerLabel: UILabel!
+    
     weak var delegate: HeaderViewDelegate?
     
     var isHighlighted: Bool = false {
@@ -32,5 +39,12 @@ class HeaderView: UICollectionReusableView, NibLoadable {
     @IBAction func selectHeader(_ sender: Any) {
         self.delegate?.didSelectHeader(self)
     }
+    
+    func configure(sectionBuilder: SectionBuilder) {
+        self.headerLabel.text = sectionBuilder.title
+    }
+    
+    static func height(model: SectionBuilder, for bounds: CGRect) -> CGFloat {
+        return model.title.heightWithConstrainedWidth(width: bounds.width-20, font: UIFont.systemFont(ofSize: 17)) + 30
+    }
 }
-

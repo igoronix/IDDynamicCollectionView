@@ -8,7 +8,12 @@
 
 import UIKit
 
-class ItemModel {
-    var title: String = ""
+class Fruit {
+    
+    init(title: String) {
+        self.title = title
+    }
+    
+    var title: String
     var description: String = ""
 }

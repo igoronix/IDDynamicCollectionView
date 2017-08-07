@@ -8,6 +8,10 @@
 
 import UIKit
 
+protocol Associated {
+    associatedtype Model
+}
+
 protocol NibLoadable {
     static func nibView<T: UIView>(viewType type: T.Type) -> T?
 }

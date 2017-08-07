@@ -11,7 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CollectionViewCell" id="QXg-qG-z9f" customClass="CollectionViewCell" customModule="IDDynamicCollectionView" customModuleProvider="target">
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="FruitCell" id="QXg-qG-z9f" customClass="FruitCell" customModule="IDDynamicCollectionView" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="375" height="89"/>
             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -40,7 +40,7 @@
                     </label>
                 </subviews>
             </view>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <color key="backgroundColor" red="0.90576915940000002" green="1" blue="0.56530626299999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="fqA-XV-2mb" firstAttribute="top" secondItem="QXg-qG-z9f" secondAttribute="top" constant="10" id="2ua-K9-08A"/>
                 <constraint firstAttribute="trailing" secondItem="gzu-XJ-pp4" secondAttribute="trailing" constant="10" id="3mC-qO-cez"/>
